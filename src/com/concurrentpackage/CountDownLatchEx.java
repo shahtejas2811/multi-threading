@@ -27,7 +27,7 @@ public class CountDownLatchEx {
 		while(true){
 			
 		}
-		// proceede with main service
+		// Proceed with main service
 		
 	}
 
