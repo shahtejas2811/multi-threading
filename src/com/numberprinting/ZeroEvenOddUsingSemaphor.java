@@ -77,7 +77,7 @@ public class ZeroEvenOddUsingSemaphor {
 		try {
 			int numeven = n / 2;
 			while (numeven-- > 0) {
-				// t1 block here until permit release by zero method
+				// t2 block here until permit release by zero method
 				semaphoreEven.acquire();
 				System.out.println(" " + Thread.currentThread().getName() + ":" + ++lastPrinted);
 				semaphoreZero.release();
