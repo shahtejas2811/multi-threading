@@ -47,6 +47,7 @@ class Message implements Comparable<Message> {
 public class PriortiyQueueSenario {
 
 	public static void main(String[] args) {
+		
 		BlockingQueue<Message> priorityQueue = new PriorityBlockingQueue<Message>(4);
 		
 		priorityQueue.add(new Message(1, 10));
